@@ -1,0 +1,7 @@
+从wikileak上拿到了finfisher2.exe.bin
+它释放了finfisher.2.exe和一个jpeg文件
+然后finfisher.2.exe又释放了injected_payload.exe
+injected_payload.exe释放了final.dll作为最后实现感染，以及各种间谍软件功能的目的
+其中一些反调试和反编译手段已经patch了，binary文件为了调试方便和解密用途，也经过了修改。
+最后的final.dll中exported的Rundll函数即恶意软件启动的函数
+
